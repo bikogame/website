@@ -1,0 +1,15 @@
+.heatmap-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.heatmap-cell {
+    background: #161a1e;
+    border: 1px solid #2b2f36;
+    padding: 15px;
+    text-align: center;
+    transition: 0.3s;
+}
+.hot { border-color: #02c076; color: #02c076; box-shadow: 0 0 10px rgba(2,192,118,0.2); }
+.cold { border-color: #f84960; color: #f84960; }

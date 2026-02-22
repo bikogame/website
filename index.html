@@ -1,0 +1,23 @@
+<div class="master-container">
+    <header class="card header-row">
+        <h1>V-INDEX DECISION ENGINE</h1>
+        <div id="injection-status" class="badge">NORMAL VOLATILITY</div>
+    </header>
+
+    <div class="heatmap-grid" id="heatmap-container">
+        </div>
+
+    <div class="main-content">
+        <div class="card signal-card">
+            <h3>Confluence Signals (H1/M15/M5)</h3>
+            <div id="signal-feed"></div>
+        </div>
+
+        <div class="card logic-card">
+            <h3>Risk Manager</h3>
+            <input type="number" id="balance" placeholder="Balance $">
+            <button onclick="calculateRisk()">Calculate Lot</button>
+            <div id="journal-stats">Win Rate: 74.5%</div>
+        </div>
+    </div>
+</div>
