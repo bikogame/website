@@ -1,6 +1,6 @@
-flask
-flask-cors
-pandas
-pandas_ta
-requests
-gunicorn
+flask==3.0.0
+flask-cors==4.0.0
+pandas==2.1.1
+pandas_ta==0.3.14b0
+requests==2.31.0
+gunicorn==21.2.0
